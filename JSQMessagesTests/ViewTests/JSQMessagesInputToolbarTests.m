@@ -64,7 +64,7 @@
     [demoVC.view setNeedsLayout];
     [demoVC.view layoutIfNeeded];
 
-    XCTAssertLessThanOrEqual(CGRectGetHeight(demoVC.inputToolbar.frame), 54, @"Toolbar height should be <= to maximumInputToolbarHeight");
+    XCTAssertLessThanOrEqual(CGRectGetHeight(demoVC.inputToolbar.frame), 60, @"Toolbar height should be <= to maximumInputToolbarHeight");
 }
 
 @end
