@@ -49,12 +49,12 @@
     
     XCTAssertEqual(self.textView.layer.borderWidth, 0.5f, @"Property should be equal to default value");
     XCTAssertEqual(self.textView.layer.borderColor, [UIColor lightGrayColor].CGColor, @"Property should be equal to default value");
-    XCTAssertEqual(self.textView.layer.cornerRadius, 6.0f, @"Property should be equal to default value");
+    XCTAssertEqual(self.textView.layer.cornerRadius, 18.0f, @"Property should be equal to default value");
     
-    XCTAssertTrue(UIEdgeInsetsEqualToEdgeInsets(self.textView.scrollIndicatorInsets, UIEdgeInsetsMake(6.0f, 0.0f, 6.0f, 0.0f)), @"Property should be equal to default value");
+    XCTAssertTrue(UIEdgeInsetsEqualToEdgeInsets(self.textView.scrollIndicatorInsets, UIEdgeInsetsMake(18.0f, 0.0f, 18.0f, 0.0f)), @"Property should be equal to default value");
     
-    XCTAssertTrue(UIEdgeInsetsEqualToEdgeInsets(self.textView.textContainerInset, UIEdgeInsetsMake(4.0f, 2.0f, 4.0f, 2.0f)), @"Property should be equal to default value");
-    XCTAssertTrue(UIEdgeInsetsEqualToEdgeInsets(self.textView.contentInset, UIEdgeInsetsMake(1.0f, 0.0f, 1.0f, 0.0f)), @"Property should be equal to default value");
+    XCTAssertTrue(UIEdgeInsetsEqualToEdgeInsets(self.textView.textContainerInset, UIEdgeInsetsMake(10.0f, 16.0f, 10.0f, 16.0f)), @"Property should be equal to default value");
+    XCTAssertTrue(UIEdgeInsetsEqualToEdgeInsets(self.textView.contentInset, UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, 0.0f)), @"Property should be equal to default value");
     
     XCTAssertEqual(self.textView.scrollEnabled, YES, @"Property should be equal to default value");
     XCTAssertEqual(self.textView.scrollsToTop, NO, @"Property should be equal to default value");

@@ -38,7 +38,6 @@
 const CGFloat kJSQMessagesCollectionViewCellLabelHeightDefault = 20.0f;
 const CGFloat kJSQMessagesCollectionViewAvatarSizeDefault = 30.0f;
 
-
 @interface JSQMessagesCollectionViewFlowLayout ()
 
 @property (strong, nonatomic) UIDynamicAnimator *dynamicAnimator;
@@ -61,7 +60,7 @@ const CGFloat kJSQMessagesCollectionViewAvatarSizeDefault = 30.0f;
 - (void)jsq_configureFlowLayout
 {
     self.scrollDirection = UICollectionViewScrollDirectionVertical;
-    self.sectionInset = UIEdgeInsetsMake(10.0f, 4.0f, 10.0f, 4.0f);
+    self.sectionInset = UIEdgeInsetsMake(10.0f, 20.0f, 10.0f, 20.0f);
     self.minimumLineSpacing = 4.0f;
     
     _messageBubbleFont = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
